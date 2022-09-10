@@ -46,9 +46,7 @@ showA2();
         <div className="boxCont1">
         <div className="typeBox">
 
-          {/* <Animation1
-              hidden={A1H}
-          /> */}
+          
           <Animation2
               hidden={A2H}
           />
@@ -108,9 +106,9 @@ showA2();
     </div>
     <div className="sliderContainer"></div>
     <div className="boxCont2">
-            <video className="video2 abs" height="auto" autoPlay loop muted>
+            {/* <video className="video2 abs" height="auto" autoPlay loop muted>
                     <source src={require('./Media/nasa.mp4')} type="video/mp4"/>
-            </video>
+            </video> */}
             <div className="titleContainer">contact me:</div>
             <ContactMe/>
     </div>
