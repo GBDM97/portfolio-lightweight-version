@@ -1,0 +1,1071 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Global */
+
+body{
+  overflow-y:auto;
+  overflow-x: hidden;
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: black;
+  flex-direction: column;
+  height: 2000px;
+}
+.boxCont1{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50, 50, 50);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+
+.d1{
+    
+    width: 100vw;
+    margin: 0 0;
+    /* border-right: 2px solid rgba(255,255,255,.75); */
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;  
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 60px;
+    color: rgb(100, 100, 100);
+}
+
+.d2 {
+    width: fit-content;
+    margin: 0 0;
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 60px;
+    color: rgb(100, 100, 100);
+}
+
+ .blur1 {
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  /* animation: b1 1s;
+  animation-delay: 0s; */
+}
+/*
+@keyframes b1 {
+  0%{filter: none;
+    -webkit-filter: none;}
+  100%{filter: blur(8px);
+    -webkit-filter: blur(2px);}
+} */
+
+
+/* Animation */
+.aT1{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+              
+}
+.aT2{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 1.25s;
+}
+.aT3{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 1.75s;
+}
+.aT4{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 2s;
+}
+.aT5{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 2.25s;
+}
+.aT6{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 2.5s;
+}
+.aT7{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 2.75s;
+}
+.aT8{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 3s;
+}
+.aT9{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 3.25s;
+}
+.aT10{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 3.5s;
+}
+
+.aT11{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 3.75s;
+}
+
+.aT12{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 4s;
+}
+
+.aT13{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 4.25s;
+}
+
+.aT14{
+  animation: typewriter 250ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 4.5s;
+}
+
+.aT15{
+  animation: typewriterTitle 1000ms steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) 1s normal;
+  animation-delay: 0s;
+}
+
+@keyframes typewriterTitle{
+  from{width: 0;}
+  to{width: 100vw;}
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100vw;}
+  
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.fadeOut {
+    animation: fadeOut 6.5s;
+}
+
+@keyframes fadeOut {
+  0% {opacity: 0;}
+  60.92%{opacity: 0;}
+  77% {color: rgb(100, 100, 100)} 
+  92.5% {color: darkcyan}
+  98% {color: darkcyan}
+  100%{color:rgb(100, 100, 100)}
+}
+
+.wsNormal{
+  white-space: normal;
+  width: 100vw;
+  overflow: visible;
+  height: fit-content;
+}
+
+/* Blinking Animation */
+
+.A3{
+  animation: A3 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes A3 {
+  0% {}
+  5% {color: rgb(100, 100, 100)}
+  7.5% {color:red}
+  10% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.V17{
+  animation: V17 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes V17 {
+  0% {}
+  7.5% {color: rgb(100, 100, 100)}
+  10% {color:orange}
+  12.5% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.N5{
+  animation: N5 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes N5 {
+  0% {}
+  12.5% {color: rgb(100, 100, 100)}
+  15% {color:blue}
+  17.5% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.N7{
+  animation: N78 infinite;
+  animation-duration: 20s;
+}
+
+.N8{
+  animation: N78 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes N78 {
+  0% {}
+  22.5% {color: rgb(100, 100, 100)}
+  25% {color:lime}
+  27.5% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.Y5{
+  animation: Y5 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes Y5 {
+  0% {}
+  6.25% {color: rgb(100, 100, 100)}
+  8.75% {color:yellow}
+  11.25% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.A11{
+  animation: A11 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes A11 {
+  0% {}
+  23.75% {color: rgb(100, 100, 100)}
+  26.25% {color: green}
+  28.75% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.V2{
+  animation: V2 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes V2 {
+  0% {}
+  28.75% {color: rgb(100, 100, 100)}
+  31.25% {color: red}
+  33.75% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.N10{
+  animation: N10 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes N10 {
+  0% {}
+  30% {color: rgb(100, 100, 100)}
+  32.5% {color: red}
+  35% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.V13{
+  animation: V13 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes V13 {
+  0% {}
+  31.25% {color: rgb(100, 100, 100)}
+  33.75% {color: whitesmoke}
+  36.25% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.A1{
+  animation: A1 infinite;
+  animation-duration: 20s;
+}
+
+.N13{
+  animation: A1 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes A1 {
+  0% {}
+  40% {color: rgb(100, 100, 100)}
+  42.5% {color: purple}
+  45% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.A10{
+  animation: A10 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes A10 {
+  0% {}
+  45% {color: rgb(100, 100, 100)}
+  47.5% {color: black}
+  50% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.A5{
+  animation: A5 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes A5 {
+  0% {}
+  50% {color: rgb(100, 100, 100)}
+  52.5% {color: darkred}
+  55% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.Y4{
+  animation: Y4 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes Y4 {
+  0% {}
+  50% {color: rgb(100, 100, 100)}
+  52.5% {color: darkred}
+  55% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+
+.Y6{
+  animation: Y6 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes Y6 {
+  0% {}
+  55% {color: rgb(100, 100, 100)}
+  57.5% {color: white}
+  60% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.V9{
+  animation: V9 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes V9 {
+  0% {}
+  57.5% {color: rgb(100, 100, 100)}
+  60% {color: aqua}
+  62.5% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.N3{
+  animation: N3 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes N3 {
+  0% {}
+  60% {color: rgb(100, 100, 100)}
+  62.5% {color: darkblue}
+  65% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.V7{
+  animation: V7 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes V7 {
+  0% {}
+  67.5% {color: rgb(100, 100, 100)}
+  70% {color: mediumspringgreen}
+  72.5% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.N1{
+  animation: N1 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes N1 {
+  0% {}
+  68% {color: rgb(100, 100, 100)}
+  71.25% {color: mediumspringgreen}
+  73.75% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.A8{
+  animation: A8 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes A8 {
+  0% {}
+  80% {color: rgb(100, 100, 100)}
+  82.5% {color: goldenrod}
+  85% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.V8{
+  animation: V8 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes V8 {
+  0% {}
+  82.5% {color: rgb(100, 100, 100)}
+  85% {color: yellow}
+  87.5% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.C1{
+  animation: C1 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes C1 {
+  0% {}
+  92.5% {color: rgb(100, 100, 100)}
+  95% {color: darkcyan}
+  97.5% {color: darkcyan}
+  100% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.N6{
+  animation: N6 infinite;
+  animation-duration: 20s;
+}
+
+@keyframes N6 {
+  0% {}
+  20% {color: rgb(100, 100, 100)}
+  22.5% {color: deeppink}
+  25% {color:rgb(100, 100, 100)}
+  100% {}
+}
+
+.red {
+  color:red;
+}
+
+.green {
+  color: limegreen;
+}
+
+.yellow {
+  color:yellow;
+}
+
+.cyan {
+  color:darkcyan;
+}
+
+.darkBlue{
+  color: darkblue;
+}
+
+.pink {
+  color: pink;
+}
+
+.magenta {
+  color: magenta
+}
+
+.yellow {
+  color:yellow;
+}
+
+.N {
+  color: green;
+}
+
+.blue {
+  color: deepskyblue;
+}
+
+.V{
+  color:chocolate;
+}
+
+.black{
+  color: black;
+}
+
+.white{
+  color: white;
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+.typeBox{
+  
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.typeBox2{
+  
+  height: 100%;
+  width: 50%;
+}
+
+.Animation1{
+  position: absolute;
+}
+.Animation2{
+  position: absolute;
+}
+
+.no{
+  display: none;
+}
+
+/* .whiteCover{
+  width:100vw;
+  height:100vh;
+  background-color: white;
+  position: absolute;
+  opacity: 0.2;
+  animation: fc1 7.5s; 
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color:black;
+} */
+
+@keyframes fc1 {
+    0%{opacity:0;}
+    86.66%{opacity: 0;}
+    100%{opacity: 0.2;}
+}
+
+.mainTitle{
+  opacity: 1;
+  background-color: black;
+  color: white;
+  /* padding: 10px 20px 10px 20px; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5.75vmin;
+  font-weight: 700;
+  letter-spacing: 5px;
+  width: 100vw;
+  height: 10vmin;
+  overflow: hidden;
+    margin: 0 0;
+    white-space: nowrap; 
+    flex-direction: row;
+    text-align: center;
+    line-height: 10vmin;
+}
+
+.frontCover{
+  width:100vw;
+  height:100vh;
+  position: absolute;
+  animation: fc2 7.5s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+@keyframes fc2 {
+  0%{opacity:0;}
+  86.66%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.gradient1 {
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(to bottom,rgb(50,50,50), black);
+}
+
+.sliderContainer{
+  height: 188px;
+  width: 100vw;
+  background-color: black;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: white;
+  text-align: center;
+}
+
+.titleContainer{
+  height: 188px;
+  width: 100vw;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 8vmin;
+  position: relative;
+}
+
+.sBox1{
+  width: 100vmin;
+  animation: box1 18s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #e34f26;
+  animation-delay: -18s;
+}
+@keyframes box1 {
+  0%{transform: translateX(500%);}
+  100%{transform: translateX(-100%);}
+ }
+.sBox2{
+  width: 100vmin;
+  animation: box2 18s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #1572b6;
+  animation-delay: -15s;
+}
+@keyframes box2 {
+  0%{transform: translateX(500%);}
+  100%{transform: translateX(-100%);}
+ }
+.sBox3{
+  width: 100vmin;
+  animation: box3 18s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f7df1e;
+  animation-delay: -12s;
+}
+@keyframes box3 {
+  0%{transform: translateX(500%);}
+  100%{transform: translateX(-100%);}
+ }
+.sBox4{
+  width: 100vmin;
+  animation: box4 18s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #8bc13e;
+  animation-delay: -9s;
+}
+@keyframes box4 {
+  0%{transform: translateX(500%);}
+  100%{transform: translateX(-100%);}
+ }
+ .sBox5{
+  width: 100vmin;
+  animation: box5 18s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #007acc;
+  animation-delay: -6s;
+}
+@keyframes box5 {
+  0%{transform: translateX(500%);}
+  100%{transform: translateX(-100%);}
+ }
+
+ .sBox6{
+  width: 100vmin;
+  animation: box6 18s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #282c34;
+  animation-delay: -3s;
+}
+@keyframes box6 {
+  0%{transform: translateX(500%);}
+  100%{transform: translateX(-100%);}
+}
+
+ .sliderCover{
+  width:200vw;
+  height:120px;
+  position: absolute;
+  transform: translateX(100%);
+}
+
+.logos{
+  width: auto;
+  height: 100px;
+}
+
+.ht{
+  width: auto;
+  height: 70px;
+  border: 15px solid #e34f26;
+}
+
+.bTitleWhite{
+  font-size: 50px;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.bTitleBlack{
+  font-size: 50px;
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bTitleReact{
+  font-size: 50px;
+  color:#61dafb;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.boxCont2{
+  height: fit-content;
+  width: 100vw;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 8vmin;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.lineContainer {
+  height: fit-content;
+  width: 90vw;
+  border: 2px solid white;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.titleText{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+.a:link{
+text-decoration: none;
+}
+
+.linkLogoCont{
+  padding: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.linkLogos{
+  width: auto;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.db{
+  color: white;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 8vmin;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+}
+
+.closeB{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8vmin;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.controls{
+  color: white;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 8vmin;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0px;
+  margin: 30px;
+  width: 80vw;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+}
+
+.projectsContainer{
+  position: relative;
+  width: 400px;
+  height: 800px;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 100px;
+  flex-direction: column;
+}
+
+.projectContainerText{
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: fit-content;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  
+}
+
+.projectsTitle {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 30px;
+  z-index: 999;
+  height: fit-content;
+  margin: 30px;
+  margin-top: 20px;
+}
+
+.projectsText {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 15px;
+  z-index: 999;
+  height: fit-content;
+  width: 300px;
+  margin: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.imageCover{
+  
+  width: 400px;
+  height: auto;
+  -webkit-filter: blur(4px) brightness(70%);
+  z-index: 998;
+  
+}
+
+
+
+.videoCover{
+  display: flex;
+  width: 400px;
+  height: auto;
+  z-index: 997;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.line1 {
+  width: 300px;
+  border: 2px solid black;
+  
+}
+
+.video1{
+  width: 400px;
+}
+
+.video2{
+  width: 2000px;
+  z-index: -1;
+}
+
+.videoContainer {
+  width: 400px;
+  height: fit-content;
+}
+
+.abs {
+  position: absolute;
+}
+
+.skillsBox{
+  border: 4px solid black;
+  color:black;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.skillsContainer{
+  flex-direction: row;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  flex-wrap: wrap;
+
+}
+
+.button0{
+  font-size: 30px;
+  color: rgb(100, 100, 100);
+  background-color: black;
+  padding: 10px;
+  margin: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button1{
+  font-size: 30px;
+  color: rgb(100, 100, 100);
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
+  text-decoration: none;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button2{
+  font-size: 6vmin;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin: 30px;
+  margin-top: 0px;
+  text-decoration: none;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+  border: 0px solid transparent;
+  cursor: pointer;
+}
+
+.spcBt{
+  margin-bottom: 1000px;
+}
+
+.z999{
+  z-index: 999;
+}
