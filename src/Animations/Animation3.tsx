@@ -52,7 +52,7 @@ const showH = () => {
         setTimeout(()=>{setHide(false)}, 8000)
         setTimeout(()=>{setHide(true); setT("GHIANCARLO MORELLI")}, 9000)
         setTimeout(()=>{setHide(false)}, 9250)
-        setTimeout(()=>{setHide3(false)}, 11500)
+        setTimeout(()=>{setHide3(false)}, 11000)
 }
 
 
@@ -70,7 +70,7 @@ return(
                 <p className="mainTitle"></p>
                 <p className="mainTitle"></p>
                 
-                <Box sx={{ position: 'absolute', height: 180, top: '75vh' }}>
+                <Box sx={{ position: 'absolute', height: 180, top: '67vh' }}>
                 <Box sx={{ display: 'flex' }}>
                 <Fade in={!hide3}>
                 {icon}

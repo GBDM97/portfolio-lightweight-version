@@ -441,7 +441,7 @@ body{
 .titleContainer{
   height: 188px;
   width: 100vw;
-  background-color: black;
+  background-color: transparent;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -598,7 +598,7 @@ body{
   width: 100vw;
   background-color: transparent;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   color: white;
   text-align: center;
@@ -849,4 +849,8 @@ text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   border: 0px solid transparent;
   cursor: pointer;
+}
+
+.black {
+  color:black;
 }

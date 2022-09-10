@@ -11,7 +11,6 @@ import ContactMe from "./Forms/ContactMe";
 import { CircularProgress } from "@mui/material";
 import { ThemeProvider } from "@mui/system";
 import {createTheme} from "@mui/material/styles";
-import { useState, useEffect } from "react";
 
 export const theme = createTheme({
         palette: {
@@ -102,9 +101,8 @@ showA2();
     </div>
     <div className="sliderContainer"></div>
     <div className="boxCont2">
-            {/* <video className="video2 abs" height="auto" autoPlay loop muted>
-                    <source src={require('./Media/nasa.mp4')} type="video/mp4"/>
-            </video> */}
+            <img className="video2 abs" height="auto" alt='' src={require('./Media/nasa.png')}>
+            </img>
             <div className="titleContainer">contact me:</div>
             <ContactMe/>
     </div>
