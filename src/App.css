@@ -25,23 +25,6 @@ body{
   
 }
 
-.d1{
-    
-    width: 100vw;
-    margin: 0 0;
-    /* border-right: 2px solid rgba(255,255,255,.75); */
-    font-size: 60px;
-    font-weight: 1000;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;  
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    height: 60px;
-    color: rgb(100, 100, 100);
-}
-
 .d2 {
     width: fit-content;
     margin: 0 0;
@@ -60,92 +43,6 @@ body{
  .blur1 {
   filter: blur(8px);
   -webkit-filter: blur(2px);
-  /* animation: b1 1s;
-  animation-delay: 0s; */
-}
-/*
-@keyframes b1 {
-  0%{filter: none;
-    -webkit-filter: none;}
-  100%{filter: blur(8px);
-    -webkit-filter: blur(2px);}
-} */
-
-
-/* Animation */
-.aT1{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-              
-}
-.aT2{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 1.25s;
-}
-.aT3{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 1.75s;
-}
-.aT4{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 2s;
-}
-.aT5{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 2.25s;
-}
-.aT6{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 2.5s;
-}
-.aT7{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 2.75s;
-}
-.aT8{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 3s;
-}
-.aT9{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 3.25s;
-}
-.aT10{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 3.5s;
-}
-
-.aT11{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 3.75s;
-}
-
-.aT12{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 4s;
-}
-
-.aT13{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 4.25s;
-}
-
-.aT14{
-  animation: typewriter 250ms steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) 1s normal;
-  animation-delay: 4.5s;
 }
 
 .aT15{
@@ -158,28 +55,9 @@ body{
   from{width: 0;}
   to{width: 100vw;}
 }
-
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 100vw;}
-  
-}
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
-}
-
-.fadeOut {
-    animation: fadeOut 6.5s;
-}
-
-@keyframes fadeOut {
-  0% {opacity: 0;}
-  60.92%{opacity: 0;}
-  77% {color: rgb(100, 100, 100)} 
-  92.5% {color: darkcyan}
-  98% {color: darkcyan}
-  100%{color:rgb(100, 100, 100)}
 }
 
 .wsNormal{
@@ -489,62 +367,6 @@ body{
   100% {}
 }
 
-.red {
-  color:red;
-}
-
-.green {
-  color: limegreen;
-}
-
-.yellow {
-  color:yellow;
-}
-
-.cyan {
-  color:darkcyan;
-}
-
-.darkBlue{
-  color: darkblue;
-}
-
-.pink {
-  color: pink;
-}
-
-.magenta {
-  color: magenta
-}
-
-.yellow {
-  color:yellow;
-}
-
-.N {
-  color: green;
-}
-
-.blue {
-  color: deepskyblue;
-}
-
-.V{
-  color:chocolate;
-}
-
-.black{
-  color: black;
-}
-
-.white{
-  color: white;
-}
-
-.paused {
-  animation-play-state: paused;
-}
-
 .typeBox{
   
   height: 100vh;
@@ -555,41 +377,8 @@ body{
   position: relative;
 }
 
-.typeBox2{
-  
-  height: 100%;
-  width: 50%;
-}
-
-.Animation1{
-  position: absolute;
-}
 .Animation2{
   position: absolute;
-}
-
-.no{
-  display: none;
-}
-
-/* .whiteCover{
-  width:100vw;
-  height:100vh;
-  background-color: white;
-  position: absolute;
-  opacity: 0.2;
-  animation: fc1 7.5s; 
-  font-size: 50px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  color:black;
-} */
-
-@keyframes fc1 {
-    0%{opacity:0;}
-    86.66%{opacity: 0;}
-    100%{opacity: 0.2;}
 }
 
 .mainTitle{
@@ -615,7 +404,7 @@ body{
   width:100vw;
   height:100vh;
   position: absolute;
-  animation: fc2 7.5s;
+  animation: fc2 0.5s;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -1060,12 +849,4 @@ text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   border: 0px solid transparent;
   cursor: pointer;
-}
-
-.spcBt{
-  margin-bottom: 1000px;
-}
-
-.z999{
-  z-index: 999;
 }

@@ -11,9 +11,9 @@ const VideoCard1 = ({img}:CardArgs) => {
                 <div className="projectsContainer">
                             <div className="videoContainer">
                                 <VideoCover img={img} hideW={""}/>
-                                <video className="video1" height="auto" controls >
+                                {/* <video className="video1" height="auto" controls >
                                 <source src={require('../Media/hb.mp4')} type="video/mp4"/>
-                                </video>
+                                </video> */}
                             </div>
                             <div className="projectContainerText">
                                     <div className="skillsContainer">

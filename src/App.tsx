@@ -2,7 +2,6 @@ import React from "react";
 import CV from "./CV";
 import "./App.css";
 import Animation2 from "./Animations/Animation2";
-import Animation1 from "./Animations/Animation1";
 import Animation3 from "./Animations/Animation3";
 import VideoCard1 from "./Video/VideoCard1";
 import VideoCard2 from "./Video/VideoCard2";
@@ -34,10 +33,8 @@ const pageChange = () =>{
    
 }
 const[A2H, setA2H] = React.useState(true)
-const[A1H, setA1H] = React.useState(false)
 const showA2 = () => {
-  setTimeout(()=>{setA2H(false)}, 6250)
-  setTimeout(()=>{setA1H(true)}, 6250)
+  setTimeout(()=>{setA2H(false)}, 0)
 }
 showA2();
 
@@ -45,7 +42,6 @@ showA2();
         <>
         <div className="boxCont1">
         <div className="typeBox">
-
           
           <Animation2
               hidden={A2H}
